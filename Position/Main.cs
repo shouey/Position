@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Configuration;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
@@ -33,13 +34,9 @@ namespace Position
 			});
 
             //
-            string path = Application.StartupPath;
-            path = path + "\\pos.ini";
-            INIFile file = new INIFile(path);
-            string addr = file.Read("Position", "url", "http://www.163.com/");
+			string address = ConfigurationManager.AppSettings["url"];
 
-            //
-			this.m_chromeBrowser = new ChromiumWebBrowser(addr);
+			this.m_chromeBrowser = new ChromiumWebBrowser(address);
 			this.panel1.Controls.Add(this.m_chromeBrowser);
 			this.m_chromeBrowser.RegisterJsObject("ckPos", this, true);
 		}

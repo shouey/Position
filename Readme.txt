@@ -1,0 +1,1 @@
+Map0729放进本地服务器运行雷达，PositionT 三个文件放进原Position目录，记事本编辑PositionT.exe.config里url指向本地服务器。

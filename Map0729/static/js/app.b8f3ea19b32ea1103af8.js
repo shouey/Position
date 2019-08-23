@@ -1009,7 +1009,52 @@ webpackJsonp([1],{"+Gpm":function(e,a){},0:function(e,a,t){t("briU"),e.exports=t
                 BigImgPath: "512_body/224_YuShi_big.png",
                 SmallImgPath: "128_head/224_YuShi_head.png",
                 Level: 1
-            }]
+            }, {
+            	Id: 2004040,
+            	Name: "柠檬精",
+            	FiveEle: ["无"],
+            	PrefabName: "4040_NingMeng",
+            	ImgName: "4040",
+            	BigImgPath: "512_body/4040_NingMeng_big.png",
+            	SmallImgPath: "128_head/4040_NingMeng_head.png",
+            	Level: 1
+        	}, {
+            	Id: 2004041,
+            	Name: "复读鸡",
+            	FiveEle: ["无"],
+            	PrefabName: "4041_FuDuJi",
+            	ImgName: "4041",
+            	BigImgPath: "512_body/4041_FuDuJi_big.png",
+            	SmallImgPath: "128_head/4041_FuDuJi_head.png",
+            	Level: 1
+        	}, {
+            	Id: 2004042,
+            	Name: "鸽了",
+            	FiveEle: ["无"],
+            	PrefabName: "4042_GeZi",
+            	ImgName: "4042",
+            	BigImgPath: "512_body/4042_GeZi_big.png",
+            	SmallImgPath: "128_head/4042_GeZi_head.png",
+            	Level: 1
+        	}, {
+            	Id: 2004043,
+            	Name: "真香",
+            	FiveEle: ["无"],
+            	PrefabName: "4043_ZhenXiang",
+            	ImgName: "4043",
+            	BigImgPath: "512_body/4043_ZhenXiang_big.png",
+            	SmallImgPath: "128_head/4043_ZhenXiang_head.png",
+            	Level: 1
+        	},{
+        		Id: 2000126,
+        		Name: "小龙人",
+        		FiveEle: ["雷"],
+        		PrefabName: "126_XiaoLongRen",
+        		ImgName: "126",
+        		BigImgPath: "512_body/126_XiaoLongRen_big.png",
+        		SmallImgPath: "128_head/126_XiaoLongRen_head.png",
+        		Level: 1
+    		},]
         }
     },
 	"r/A7":function(e,a){},r6ik:function(e,a){},rvTX:function(e,a){},uMUH:function(e,a){},usvk:function(e,a){},wHoj:function(e,a){},wOmg:function(e,a){},xgGj:function(e,a){},zrJC:function(e,a,t){e.exports=t.p+"static/img/pos.6a6ca37.png"}},[0]);
